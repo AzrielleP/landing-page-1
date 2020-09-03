@@ -13,13 +13,13 @@
 /* Landing */
 .landing-header h1 {
   margin-bottom: 1em;
-  font: bold 7vh 'Noto Sans', sans-serif;
+  font: bold 6vh 'Noto Sans', sans-serif;
   color: #ffffff;
   text-align: center;
 }
 .landing-header h2 {
   margin-bottom: 3em;
-  font: 3vh 'Source Sans Pro', sans-serif;
+  font: 2.5vh 'Source Sans Pro', sans-serif;
   color: #f2f3d9;
   text-align: center;
 }
