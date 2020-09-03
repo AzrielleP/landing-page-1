@@ -50,7 +50,7 @@
   text-transform: uppercase;
   line-height: 49px;
   color: #030027;
-  text-shadow: 3px 7px 0px #ffb8b8;
+  text-shadow: 3px 7px 0px #ffb8b8c2;
 }
 
 .contact-us-description {
@@ -84,7 +84,7 @@ a {
 
 /* Navbar */
 .page-links li a {
-  font: 1em "Noto Sans", sans-serif;
+  font: 1em 'Noto Sans', sans-serif;
   color: #f2f3d9;
 }
 
@@ -96,7 +96,7 @@ a {
 
 .page-links li a:focus,
 .page-links li a:active {
-  color: #ffb8b8; 
+  color: #ffb8b8;
   border-bottom: 2px solid #ffb8b8;
 }
 
@@ -110,15 +110,15 @@ a {
   border-radius: 10px;
   outline: none;
   padding: 0.5em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 0.8em 0;
-  background: #060d27;
+  background: #fbff94;
   font: bolder 1.2em 'Source Sans Pro', sans-serif;
-  color: #fbff94;
+  color: #151e3f;
 }
 
 .landing-header .request-demo-button:active,
-.landing-header .request-demo-button:focus {
+.landing-header .request-demo-button:focus,
+.submit-form:active,
+.submit-form:focus {
   background-color: #c16e70;
   color: #f2f3d9;
 }
@@ -127,24 +127,6 @@ a {
 .contact-us-description .bold-pink {
   color: #c16e70;
   font-weight: bolder;
-}
-
-.submit-form {
-  margin: 1em;
-  background: #060d27;
-  color: #fbff94;
-  border-radius: 10px;
-  outline: none;
-  border: none;
-  width: 5em;
-  height: 2.5em;
-  font: bolder 1.2em 'Source Sans Pro', sans-serif;
-}
-
-.submit-form:active,
-.submit-form:focus {
-  background-color: #c16e70;
-  color: #f2f3d9;
 }
 
 /* Footer */
@@ -203,7 +185,7 @@ ul {
 
 /* Contact */
 .contact-form li {
-  margin: 0.8em;
+  margin: 0.8em 0;
 }
 
 /* Footer */
@@ -238,7 +220,7 @@ ul {
 .contact-form select:active,
 .contact-form textarea:active {
   border: 2px solid #c16e70;
-} 
+}
 
 /*=========================
    CONTAINERS
@@ -257,7 +239,6 @@ ul {
   justify-content: space-between;
   padding: 1em;
 }
-
 
 /* Landing */
 .landing-background-container {
@@ -376,7 +357,7 @@ ul {
   border-radius: 10px;
   border: 0.1px solid #a8a8a898;
   background-color: #ffffff;
-  padding: 1em;
+  padding: 2em;
   max-width: 30em;
   margin: auto;
 }
@@ -409,6 +390,10 @@ footer {
   color: #84848475;
   background-color: #84848475;
 }
+
+/*=========================
+   MEDIA QUERIES
+=========================*/
 
 /* For small screens */
 @media screen and (max-width: 767px) {
@@ -509,9 +494,12 @@ footer {
   }
 
   /* Contact */
-  .contact-form {
-    padding: 0.5em;
 
+  #contact {
+    margin: 4em 2em;
+  }
+  .contact-form {
+    padding: 1.5em;
   }
 
   /* Footer */
@@ -529,6 +517,10 @@ footer {
   .name-form li {
     flex: 1;
     margin-bottom: 0;
+  }
+
+  .name-form li:first-child {
+    margin-right: 1em;
   }
 }
 
