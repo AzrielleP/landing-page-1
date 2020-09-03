@@ -251,19 +251,16 @@ ul {
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030027', endColorstr='#ed151e3f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-
 .landing-header {
   margin: 3em 1em;
 }
-
 .bars-container {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   min-height: 8em;
   max-height: 10em;
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  background: url('assets/Bars\ background.svg') repeat-x center center/contain;
+  background: url('assets/Bars\ background.svg') repeat-x bottom center/contain;
 }
 
 /* App Features */
