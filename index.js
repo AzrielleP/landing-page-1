@@ -7,8 +7,9 @@ const toggleMenu = (() => {
     burgerIcon.addEventListener('click', ()=> {
         nav.classList.toggle('expanded');
         burgerIconContainer.classList.toggle('expanded');
-        console.log('x')
     })
+
+    
     
 })();
 
