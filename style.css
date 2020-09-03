@@ -16,12 +16,12 @@
   font: bold 2.5em 'Noto Sans', sans-serif;
   color: #ffffff;
 }
-
 .landing-header h2 {
   margin-bottom: 3em;
   font: 1em 'Source Sans Pro', sans-serif;
   color: #f2f3d9;
 }
+
 /* App Features */
 .feature-description {
   margin: auto;
@@ -35,7 +35,6 @@
   font: bold 2.5em 'Noto Sans', sans-serif;
   color: #ffffff;
 }
-
 .customer-success-description {
   margin: 1.5em 0;
   font: 0.8em 'Source Sans Pro', sans-serif;
@@ -52,7 +51,6 @@
   color: #030027;
   text-shadow: 3px 7px 0px #ffb8b8c2;
 }
-
 .contact-us-description {
   margin: 2em 0;
   font: 1em 'Source Sans Pro', sans-serif;
@@ -63,13 +61,11 @@ footer {
   color: #ffffff;
   font: 1em 'Noto Sans', sans-serif;
 }
-
 .footer-h3 {
   margin: 1em 0;
   text-transform: uppercase;
   color: #c16e70;
 }
-
 .footer-copyright {
   margin-top: 2em;
   text-align: center;
@@ -77,6 +73,7 @@ footer {
 /*=========================
    LINKS AND BUTTONS
 =========================*/
+
 a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
@@ -87,13 +84,11 @@ a {
   font: 1em 'Noto Sans', sans-serif;
   color: #f2f3d9;
 }
-
 .page-links li a:hover {
   padding-bottom: 0.2em;
   color: #ffffff;
   border-bottom: 2px solid #fbff94;
 }
-
 .page-links li a:focus,
 .page-links li a:active {
   color: #ffb8b8;
@@ -114,7 +109,10 @@ a {
   font: bolder 1.2em 'Source Sans Pro', sans-serif;
   color: #151e3f;
 }
-
+.landing-header .request-demo-button:hover,
+.landing-header .request-demo-button:hover {
+  opacity: 0.6;
+}
 .landing-header .request-demo-button:active,
 .landing-header .request-demo-button:focus,
 .submit-form:active,
@@ -136,27 +134,22 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
 .footer-contact-us li i {
   margin-right: 1em;
 }
-
 .footer-social-links i {
   font-size: 2em;
   color: #ffffff;
   margin-right: 0.5em;
 }
-
 .footer-special-link {
   color: #a8a8a8;
 }
-
 .footer-links-container a:hover,
 .footer-social-links i:hover,
 .footer-special-link:hover {
   opacity: 0.6;
 }
-
 .footer-links-container a:active,
 .footer-social-links i:active,
 .footer-special-link:active {
@@ -178,7 +171,6 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
-
 .page-links li {
   margin: 1em;
 }
@@ -208,11 +200,9 @@ ul {
   border-radius: 5px;
   font-family: Source Sans Pro, sans-serif;
 }
-
 .contact-form textarea {
   resize: none;
 }
-
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus,
@@ -232,7 +222,6 @@ ul {
   width: 7em;
   background: url('assets/company-logo.png') no-repeat center center/contain;
 }
-
 .navbar {
   display: flex;
   align-items: center;
@@ -245,7 +234,6 @@ ul {
   height: 100vh;
   position: relative;
   top: 0;
-  z-index: -1;
   background: -moz-linear-gradient(
     -45deg,
     rgba(3, 0, 39, 1) 0%,
@@ -270,7 +258,8 @@ ul {
 
 .bars-container {
   width: 100%;
-  height: 5em;
+  min-height: 8em;
+  max-height: 10em;
   z-index: 0;
   position: absolute;
   bottom: 0;
@@ -496,7 +485,6 @@ footer {
   }
 
   /* Contact */
-
   #contact {
     margin: 4em 2em;
   }
