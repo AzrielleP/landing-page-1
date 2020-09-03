@@ -243,6 +243,8 @@ ul {
 /* Landing */
 .landing-background-container {
   height: 100vh;
+  position: relative;
+  top: 0;
   z-index: -1;
   background: -moz-linear-gradient(
     -45deg,
